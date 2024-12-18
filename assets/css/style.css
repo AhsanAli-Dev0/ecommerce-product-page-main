@@ -1,0 +1,68 @@
+body{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0%;
+  font-size: 16px;
+  font-family: "Kumbh Sans", sans-serif;
+}
+.nav-link, button, img, .decriment, .incritment{
+  cursor: pointer;
+}
+nav{
+  font-size: 16px;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 700;
+}
+p{
+  font-size: 16px;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 500;
+  color: rgb(89, 122, 150);
+}
+nav .profile img:hover{
+  border: 2px solid red;
+  border-radius: 100%;
+  box-shadow:  0px 0px 3px 0px #110b0b
+}
+#liveToast{
+  width: 20%;
+  position: absolute;
+  left: 70%;
+}
+ .carousel img{
+  border-radius: 9px;
+}
+.carousel-indicators img{
+  border-radius: 26px !important;
+}
+.carousel-indicators{
+  bottom: -138px !important;
+}
+.modal-content{
+  background-color: unset !important;
+  border: 0px solid !important;
+}
+/* .carousel-control-next {
+  right: -45px !important;
+} */
+
+.modal .carousel-control-next{
+  right: -45px !important;
+}
+.counter b{
+  padding: 5px;
+}
+.modal .carousel-control-prev{
+  left: -45px !important;
+}
+.title h1{
+  font-size: 46px;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 700;
+}
+
+@media screen and (max-width:767px) {
+  .title h1{
+    margin-top: 98px;
+  }
+}
