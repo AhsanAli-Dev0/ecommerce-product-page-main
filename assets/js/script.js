@@ -3,7 +3,7 @@ let incritment =document.getElementById('incritment')
 let decriment =document.querySelector('#decriment')
 let count= document.getElementById('count')
 
-let counts=0
+let counts=3
 incritment.addEventListener('click', ()=>{
   counts++
   count.innerText = counts
@@ -36,7 +36,7 @@ const product ={
   name:'Fall Limited Edition Sneakers',
   price: 125.00,
   img:activeImg [5].src,
-  removeProduct:'../images/icon-delete.svg'
+  removeProduct:'./images/icon-delete.svg'
   }
   
   function cartItems() {
